@@ -134,6 +134,24 @@ h2{font-size:clamp(30px,3.4vw,44px);font-weight:800;letter-spacing:-.8px;margin:
     color:#5d6678;
 }
 
+
+@media (max-width: 992px){
+    .about-img{
+        max-width: 500px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .about-image{
+        padding: 10px;
+    }
+
+    .about-img{
+        max-width: 100%;
+    }
+}
+
 .brand-list{
     display:grid;
     gap:20px;
