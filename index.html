@@ -1,0 +1,949 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Sevanamithram Public Service Center provides trusted government digital services, documentation assistance and dedicated Pravasi support in Balussery, Kerala."
+    />
+    <meta name="theme-color" content="#181818" />
+    <title>SEVANAMITHRAM | Public Service Center, Balussery</title>
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Saira:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&family=Noto+Sans+Malayalam:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <svg class="svg-sprite" aria-hidden="true">
+      <symbol id="i-government" viewBox="0 0 24 24">
+        <path d="m3 9 9-5 9 5M5 10v8m4-8v8m6-8v8m4-8v8M3 20h18" />
+      </symbol>
+      <symbol id="i-passport" viewBox="0 0 24 24">
+        <rect x="5" y="3" width="14" height="18" rx="2" />
+        <circle cx="12" cy="11" r="3" />
+        <path d="M9 11h6m-3-3c1 2 1 4 0 6m-4 3h8" />
+      </symbol>
+      <symbol id="i-card" viewBox="0 0 24 24">
+        <rect x="3" y="5" width="18" height="14" rx="2" />
+        <path d="M3 9h18M7 14h4" />
+      </symbol>
+      <symbol id="i-certificate" viewBox="0 0 24 24">
+        <path d="M6 3h9l3 3v10H6zM15 3v4h4" />
+        <circle cx="12" cy="13" r="2.5" />
+        <path d="m10 15-1 6 3-2 3 2-1-6" />
+      </symbol>
+      <symbol id="i-payment" viewBox="0 0 24 24">
+        <rect x="3" y="5" width="18" height="14" rx="2" />
+        <path d="M3 10h18m-5 5h2" />
+      </symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24">
+        <path d="M12 3 4 6v5c0 5 3 8 8 10 5-2 8-5 8-10V6z" />
+        <path d="m8.5 12 2.2 2.2 4.8-5" />
+      </symbol>
+      <symbol id="i-travel" viewBox="0 0 24 24">
+        <path d="m2 16 20-8-7 12-3-6-5-3zM12 14l3-2" />
+      </symbol>
+      <symbol id="i-print" viewBox="0 0 24 24">
+        <path d="M7 8V3h10v5M7 17H4V9h16v8h-3" />
+        <path d="M7 14h10v7H7z" />
+      </symbol>
+      <symbol id="i-document" viewBox="0 0 24 24">
+        <path d="M6 3h9l3 3v15H6zM15 3v4h4M9 12h6m-6 4h6" />
+      </symbol>
+      <symbol id="i-users" viewBox="0 0 24 24">
+        <circle cx="9" cy="8" r="3" />
+        <path d="M3 19c0-4 2-6 6-6s6 2 6 6m1-10c3 0 5 2 5 5v3" />
+      </symbol>
+      <symbol id="i-globe" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="9" />
+        <path d="M3 12h18M12 3c4 5 4 13 0 18m0-18c-4 5-4 13 0 18" />
+      </symbol>
+      <symbol id="i-support" viewBox="0 0 24 24">
+        <path
+          d="M4 13v-2a8 8 0 0 1 16 0v2M4 13h3v6H5a2 2 0 0 1-2-2v-2a2 2 0 0 1 1-2Zm16 0h-3v6h2c1 0 2-1 2-2v-2c0-1-1-2-1-2ZM17 19c-1 2-3 2-5 2"
+        />
+      </symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24">
+        <path d="M7 3H4c-1 10 7 18 17 17v-3l-5-2-2 3c-4-2-6-4-8-8l3-2z" />
+      </symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24">
+        <rect x="3" y="5" width="18" height="14" rx="2" />
+        <path d="m4 7 8 6 8-6" />
+      </symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24">
+        <path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z" />
+        <circle cx="12" cy="10" r="2.5" />
+      </symbol>
+      <symbol id="i-check" viewBox="0 0 24 24">
+        <path d="m5 12 4 4L19 6" />
+      </symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24">
+        <path d="M5 12h14m-6-6 6 6-6 6" />
+      </symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="9" />
+        <path d="M12 7v5l3.5 2.5" />
+      </symbol>
+      <symbol id="i-whatsapp" viewBox="0 0 24 24">
+        <path d="M20 11.5a8 8 0 0 1-12 7L4 20l1.5-4A8 8 0 1 1 20 11.5Z" />
+        <path d="M9 8c1 4 3 6 7 7" />
+      </symbol>
+    </svg>
+
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <div class="topbar-contacts">
+          <a href="tel:+91 94975 34008"
+            ><svg><use href="#i-phone" /></svg>+91 94975 34008</a
+          >
+          <a href="mailto:sevanamithramonline@gmail.com"
+            ><svg><use href="#i-mail" /></svg>sevanamithramonline@gmail.com</a
+          >
+        </div>
+        <!-- <p class="topbar-note"><svg><use href="#i-clock"/></svg>Open Mon–Sat · Balussery, Kozhikode</p> -->
+        <p class="topbar-note">
+          <svg><use href="#i-location-pin " /></svg> Balussery,Kozhikode
+        </p>
+      </div>
+    </div>
+
+    <header class="site-header" id="header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home" aria-label="Sevanamithram home"
+          ><img
+            src="assets/SEVANAMITHRAM-04.png"
+            alt="Sevanamithram Public Service Center"
+            width="100"
+            height="83"
+        /></a>
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          aria-label="Open navigation"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="nav-menu" aria-label="Main navigation">
+          <a class="active" href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#pravasi">Pravasi</a>
+          <a href="#why-us">Why Us</a>
+          <a href="#contact">Contact</a>
+          
+          <div>
+          <a class="button button-sm  " href="#contact">Apply Online</a>
+       </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="apply-band">
+      <div class="container apply-band-inner">
+        <p>
+          <strong>GOVERNMENT ONLINE SERVICES</strong
+          ><span>APPLY WITH ASSISTED SUPPORT</span>
+        </p>
+        <a class="band-link" href="#contact"
+          >Home / Apply Online / Book a Service
+          <svg><use href="#i-arrow" /></svg
+        ></a>
+      </div>
+    </div>
+
+    <main id="main">
+      <section class="hero" id="home">
+        <div class="container hero-inner">
+          <div class="hero-copy reveal-up" aria-live="polite">
+            <article class="hero-copy-slide active" data-hero-copy>
+              <span class="hero-kicker">SEVANAMITHRAM</span>
+              <h1>Public Services Made Simple, For Every Family.</h1>
+              <p class="hero-sub" lang="ml">
+                പൊതുജനങ്ങൾക്ക് ആവശ്യമായ സർക്കാർ സേവനങ്ങളും രേഖാ സഹായവും
+                ലളിതമായും സുരക്ഷിതമായും ഒരിടത്ത് ലഭ്യമാക്കുന്നു.
+              </p>
+              <div class="hero-actions">
+                <a class="button" href="#services"
+                  >Services <svg><use href="#i-arrow" /></svg
+                ></a>
+                <a class="button button-outline" href="#contact">Contact Us</a>
+              </div>
+            </article>
+            <article class="hero-copy-slide" data-hero-copy>
+              <span class="hero-kicker">PRAVASALOKAM</span>
+              <h1>Dedicated Support For Every Pravasi Family.</h1>
+              <p class="hero-sub" lang="ml">
+                പ്രവാസികൾക്കും കുടുംബങ്ങൾക്കും ആവശ്യമായ നോർക്ക, പാസ്‌പോർട്ട്,
+                എംബസി, ഇൻഷുറൻസ്, യാത്രാ സേവനങ്ങളിൽ വിശ്വസനീയമായ സഹായവും
+                പിന്തുണയും.
+              </p>
+              <div class="hero-actions">
+                <a class="button" href="#pravasi"
+                  >Pravasi Services <svg><use href="#i-arrow" /></svg
+                ></a>
+                <a class="button button-outline" href="#contact">Get Support</a>
+              </div>
+            </article>
+            <article class="hero-copy-slide" data-hero-copy>
+              <span class="hero-kicker"> eMithram Franchise</span>
+              <h1>Official Digital Services, All Under One Roof.</h1>
+              <p class="hero-sub" lang="ml">
+                എല്ലാ ഓൺലൈൻ സർക്കാർ അപേക്ഷകളും ഡിജിറ്റൽ സേവനങ്ങളും ഔദ്യോഗിക
+                പ്ലാറ്റ്‌ഫോമിലൂടെ കൃത്യമായ മാർഗനിർദേശത്തോടെ ലഭ്യമാക്കുന്നു.
+              </p>
+              <div class="hero-actions">
+                <a class="button" href="#services"
+                  >Digital Services <svg><use href="#i-arrow" /></svg
+                ></a>
+                <a class="button button-outline" href="#contact"
+                  >Apply Online</a
+                >
+              </div>
+            </article>
+          </div>
+
+          <div
+            class="hero-slider reveal-right"
+            aria-label="Our three main service platforms"
+          >
+            <!-- <div class="hero-orbit" aria-hidden="true">
+            <span class="orbit-icon orbit-icon-one"><svg><use id="hero-orbit-icon-one" href="#i-government"/></svg></span>
+            <span class="orbit-icon orbit-icon-two"><svg><use id="hero-orbit-icon-two" href="#i-document"/></svg></span>
+          </div> -->
+            <div class="hero-slides">
+              <article
+                class="hero-slide active"
+                data-hero-slide
+                aria-hidden="false"
+              >
+                <div class="hero-image shape-one">
+                  <img
+                    src="assets/image.jpg"
+                    alt="A family receiving assisted public services at Sevanamithram"
+                  />
+                </div>
+                <div class="hero-slide-label">
+                  <div>
+                    <strong>SEVANAMITHRAM</strong
+                    ><span lang="ml">പൊതുജന സേവനങ്ങൾ</span>
+                  </div>
+                  <img src="assets/SEVANAMITHRAM-04.png" alt="" />
+                </div>
+              </article>
+              <article class="hero-slide" data-hero-slide aria-hidden="true">
+                <div class="hero-image shape-two">
+                  <img
+                    src="assets/download.png"
+                    alt="Pravasi family receiving travel and documentation support"
+                  />
+                </div>
+                <div class="hero-slide-label">
+                  <div>
+                    <strong>PRAVASALOKAM</strong
+                    ><span lang="ml">പ്രവാസി സഹായവും പിന്തുണയും</span>
+                  </div>
+                  <img src="assets/PRAVASIMITHRAM-02.png" alt="" style="width: 120px;" />
+                </div>
+              </article>
+              <article class="hero-slide" data-hero-slide aria-hidden="true">
+                <div class="hero-image shape-three">
+                  <img
+                    src="assets/download (1).png"
+                    alt="eMithram advisor providing official digital government services"
+                  />
+                </div>
+                <div class="hero-slide-label">
+                  <div>
+                    <strong>eMithram Franchise</strong
+                    ><span lang="ml"
+                      >ഔദ്യോഗിക ഓൺലൈൻ സർക്കാർ/ഡിജിറ്റൽ സേവനങ്ങൾ</span
+                    >
+                  </div>
+                  <img src="assets/download (2).png" style="width: 100px;" alt="" />
+                </div>
+              </article>
+            </div>
+            <div
+              class="hero-slider-dots"
+              role="group"
+              aria-label="Choose a service"
+            >
+              <button
+                class="active"
+                type="button"
+                data-hero-dot="0"
+                aria-label="Show Sevanamithram"
+                aria-pressed="true"
+              ></button>
+              <button
+                type="button"
+                data-hero-dot="1"
+                aria-label="Show Pravasalokam"
+                aria-pressed="false"
+              ></button>
+              <button
+                type="button"
+                data-hero-dot="2"
+                aria-label="Show eMithram Franchise"
+                aria-pressed="false"
+              ></button>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="hero-strip" aria-hidden="true"><span>SEVANAMITHRAM</span><span>·</span><span>eMITHRAM</span><span>·</span><span>PRAVASALOKAM</span><span>·</span><span>SPRAC</span><span>·</span><span>SEVANAMITHRAM</span><span>·</span><span>eMITHRAM</span></div> -->
+
+        <div
+          class="hero-strip"
+          aria-hidden="true"
+          style="
+            background: rgb(238, 235, 235);
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            padding: 18px 20px;
+          "
+        >
+          <img
+            src="assets/SEVANAMITHRAM-04.png"
+            alt="Sevanamithram"
+            style="height: 55px"
+          />
+          <span>·</span>
+
+          <img
+            src="assets/download (3).png"
+            alt="eMithram"
+            style="height: 55px"
+          />
+          <span>·</span>
+
+          <img
+            src="assets\PRAVASIMITHRAM-02.png"
+            alt="PRAVASIMITHRAM"
+            style="height: 55px"
+          />
+          <span>·</span>
+
+          <!-- <img src="assets/SEVANAMITHRAM-04.png" alt="Sevanamithram" style="height: 55px;">
+    <span>·</span>
+
+   <img src="assets/download (2).png" alt="eMithram" style="height: 55px;">
+    <span>·</span>
+
+    <img src="assets\PRAVASIMITHRAM-02.png" alt="PRAVASIMITHRAM" style="height: 55px;"> -->
+        </div>
+      </section>
+
+      <section class="section who-we-are" id="about">
+        <div class="container">
+          <div class="who-grid">
+            <div class="reveal-left">
+              <span class="section-tag">SEVANAMITHRAM</span>
+              <h2>Who We Are</h2>
+            </div>
+            <div class="reveal-right">
+              <p class="who-lead">
+                Sevanamithram Public Service Center is a trusted community
+                service centre in Balussery, providing government and digital
+                services with simplicity, accuracy, and care.
+              </p>
+              <p>
+                As an Authorized eMithram Franchise, we deliver secure and
+                reliable public services while offering dedicated support to
+                Pravasi and NRI families through PravasiMithram and
+                PravasaLokam.
+              </p>
+
+              <p class="tagline">
+                Saving your time. Simplifying every service. Serving with trust.
+              </p>
+              <a class="text-link" href="#services"
+                >Know more about Sevanamithram <svg><use href="#i-arrow" /></svg
+              ></a>
+            </div>
+          </div>
+          <div class="quick-icons">
+            <a class="reveal-up" href="#services"
+              ><i
+                ><svg><use href="#i-government" /></svg></i
+              ><span>Government Services</span></a
+            >
+            <a class="reveal-up" href="#services"
+              ><i
+                ><svg><use href="#i-passport" /></svg></i
+              ><span>Passport Assistance</span></a
+            >
+            <a class="reveal-up" href="#services"
+              ><i
+                ><svg><use href="#i-card" /></svg></i
+              ><span>PAN &amp; Aadhaar</span></a
+            >
+            <a class="reveal-up" href="#services"
+              ><i
+                ><svg><use href="#i-certificate" /></svg></i
+              ><span>Certificates</span></a
+            >
+            <a class="reveal-up" href="#pravasi"
+              ><i
+                ><svg><use href="#i-globe" /></svg></i
+              ><span>Pravasi Support</span></a
+            >
+            <a class="reveal-up" href="#contact"
+              ><i
+                ><svg><use href="#i-document" /></svg></i
+              ><span>Apply Online</span></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-us">
+        <div class="container about-grid">
+          <div class="about-copy reveal-left">
+            <span class="section-tag">About Us</span>
+            <h2>One trusted center for all your public service needs.</h2>
+            <!-- <p>From government online applications and certificate support to PAN, Aadhaar, passport assistance and utility payments — Sevanamithram brings official digital services and personal guidance together under one roof.</p> -->
+
+            <p class="about-lead">
+              Sevanamithram is more than an ordinary online service center. We
+              bring together government services, digital solutions, and
+              dedicated Pravasi support through three specialized service
+              brands—all under one trusted platform.
+            </p>
+
+            <div class="brand-list">
+              <div class="brand-item">
+                <h3 id="SEVANAMITHRAM">SEVANAMITHRAM</h3>
+                <span>Public Service Center</span>
+                <p>
+                  Government services, certificates, PAN, Aadhaar, passport
+                  assistance, utility payments, documentation, and a wide range
+                  of public services.
+                </p>
+              </div>
+
+              <div class="brand-item">
+                <h3 id="eMithram">eMithram Franchise</h3>
+                <p>
+                  All online government and digital services are delivered
+                  through our Authorized eMithram Franchise, ensuring secure,
+                  reliable, and efficient access to official government
+                  platforms.
+                </p>
+              </div>
+
+              <div class="brand-item">
+                <h3>PRAVASALOKAM</h3>
+                <p>
+                  Dedicated support for NRIs and Pravasi families including
+                  NORKA services, documentation, passport guidance, embassy
+                  assistance, and travel support.
+                </p>
+              </div>
+
+              <div class="brand-item">
+                <h3>SPRAC</h3>
+                <span>Sevanamithram Pravasi Assistance & Resource Centre</span>
+                <p>
+                  Assistance for employment concerns, welfare matters,
+                  petitions, embassy communication, documentation, and community
+                  support for expatriates.
+                </p>
+              </div>
+            </div>
+
+            <ul class="check-list">
+              <li>
+                <svg><use href="#i-check" /></svg>Authorized eMithram franchise
+                center
+              </li>
+              <li>
+                <svg><use href="#i-check" /></svg>Secure and verified document
+                handling
+              </li>
+              <li>
+                <svg><use href="#i-check" /></svg>Clear guidance at every step
+              </li>
+              <li>
+                <svg><use href="#i-check" /></svg>Dedicated Pravasi &amp; NRI
+                support desk
+              </li>
+            </ul>
+
+            <a class="button" href="#contact"
+              >Know more about Sevanamithram <svg><use href="#i-arrow" /></svg
+            ></a>
+          </div>
+          <div class="about-visual reveal-right">
+            <!-- <img
+              src="assets\5-security-awareness-training-programs-c_4Zf9LsQZQ4-jlv5iEABIJw_Q_qYI4ooTguf2HdGm1O6Yg.png"
+              alt="Security Awareness Training"   
+              style="height: 600px; 
+              width: 170%;"
+            /> -->
+<!-- <img class="about-img" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/738537ed-acd4-4cee-a165-a005ee9a1b87/3VhHBi6LnDjsJxv7MhzGrR2fUaF31ibP/editor_images/beneficios_1.png" /
+style="height:70vh; width:120%; margin-bottom:0px; "
+> -->
+
+<div class="about-image">
+    <svg class="thread top-thread" viewBox="0 0 600 120">
+        <path d="M10,70
+                 C120,10 220,120 320,50
+                 S500,10 590,70"
+              fill="none"
+              stroke="#9bdca8"
+              stroke-width="4"
+              stroke-linecap="round"/>
+    </svg>
+
+    <img
+        class="about-img"
+        src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/738537ed-acd4-4cee-a165-a005ee9a1b87/3VhHBi6LnDjsJxv7MhzGrR2fUaF31ibP/editor_images/beneficios_1.png"
+        alt="About">
+
+    <svg class="thread bottom-thread" viewBox="0 0 600 120">
+        <path d="M10,50
+                 C120,110 220,0 320,70
+                 S500,110 590,50"
+              fill="none"
+              stroke="#9bdca8"
+              stroke-width="5"
+              stroke-linecap="round"/>
+    </svg>
+</div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section class="section what-we-do" id="services">
+        <div class="container">
+          <div class="section-head reveal-up">
+            <span class="section-tag">What We Do</span>
+            <h2>Here are the services we provide</h2>
+          </div>
+          <div class="service-list">
+            <a class="service-row reveal-up" href="#contact"
+              ><i
+                ><svg><use href="#i-government" /></svg></i
+              ><span>Government Online Services</span
+              ><svg class="row-arrow"><use href="#i-arrow" /></svg
+            ></a>
+            <a class="service-row reveal-up" href="#contact"
+              ><i
+                ><svg><use href="#i-passport" /></svg></i
+              ><span>Passport Application &amp; Renewal</span
+              ><svg class="row-arrow"><use href="#i-arrow" /></svg
+            ></a>
+            <a class="service-row reveal-up" href="#contact"
+              ><i
+                ><svg><use href="#i-card" /></svg></i
+              ><span>PAN &amp; Aadhaar Services</span
+              ><svg class="row-arrow"><use href="#i-arrow" /></svg
+            ></a>
+            <a class="service-row reveal-up" href="#contact"
+              ><i
+                ><svg><use href="#i-certificate" /></svg></i
+              ><span>Certificate Applications</span
+              ><svg class="row-arrow"><use href="#i-arrow" /></svg
+            ></a>
+            <a class="service-row reveal-up" href="#contact"
+              ><i
+                ><svg><use href="#i-payment" /></svg></i
+              ><span>Utility Bill Payments</span
+              ><svg class="row-arrow"><use href="#i-arrow" /></svg
+            ></a>
+            <a class="service-row reveal-up" href="#contact"
+              ><i
+                ><svg><use href="#i-shield" /></svg></i
+              ><span>Insurance Services</span
+              ><svg class="row-arrow"><use href="#i-arrow" /></svg
+            ></a>
+            <a class="service-row reveal-up" href="#contact"
+              ><i
+                ><svg><use href="#i-travel" /></svg></i
+              ><span>Travel Booking Assistance</span
+              ><svg class="row-arrow"><use href="#i-arrow" /></svg
+            ></a>
+            <a class="service-row reveal-up" href="#contact"
+              ><i
+                ><svg><use href="#i-print" /></svg></i
+              ><span>Print, Scan &amp; Copy</span
+              ><svg class="row-arrow"><use href="#i-arrow" /></svg
+            ></a>
+            <a class="service-row reveal-up" href="#contact"
+              ><i
+                ><svg><use href="#i-document" /></svg></i
+              ><span>Documentation Support</span
+              ><svg class="row-arrow"><use href="#i-arrow" /></svg
+            ></a>
+            <a class="service-row reveal-up" href="#contact"
+              ><i
+                ><svg><use href="#i-users" /></svg></i
+              ><span>Ration Card &amp; Voter Services</span
+              ><svg class="row-arrow"><use href="#i-arrow" /></svg
+            ></a>
+          </div>
+          <div class="services-more reveal-up">
+            <a class="button button-dark" href="#contact"
+              >See More Services <svg><use href="#i-arrow" /></svg
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section pravasi" id="pravasi">
+        <div class="container pravasi-grid">
+          <div class="pravasi-copy reveal-left">
+            <span class="section-tag light">PRAVASALOKAM &amp; SPRAC</span>
+            <h2>Dedicated Pravasi &amp; NRI Support</h2>
+            <p>
+              Support that keeps Pravasi families connected, informed and
+              confident wherever life takes them. From NORKA services to embassy
+              documentation, we handle the process with care.
+            </p>
+            <a class="text-link light" href="#contact"
+              >Get Pravasi assistance <svg><use href="#i-arrow" /></svg
+            ></a>
+          </div>
+          <div class="pravasi-cards reveal-right">
+            <article>
+              <svg><use href="#i-government" /></svg>
+              <h3>NORKA</h3>
+              <p>Applications &amp; service guidance</p>
+            </article>
+            <article>
+              <svg><use href="#i-card" /></svg>
+              <h3>Pravasi ID</h3>
+              <p>Registration &amp; renewal support</p>
+            </article>
+            <article>
+              <svg><use href="#i-shield" /></svg>
+              <h3>Insurance</h3>
+              <p>Pravasi protection assistance</p>
+            </article>
+            <article>
+              <svg><use href="#i-passport" /></svg>
+              <h3>Passport &amp; Embassy</h3>
+              <p>Documentation &amp; process help</p>
+            </article>
+            <article>
+              <svg><use href="#i-document" /></svg>
+              <h3>Pension</h3>
+              <p>Application &amp; document support</p>
+            </article>
+            <article>
+              <svg><use href="#i-travel" /></svg>
+              <h3>Travel</h3>
+              <p>End-to-end travel assistance</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section highlights" id="why-us">
+        <div class="container">
+          <div class="section-head reveal-up">
+            <span class="section-tag">Why Choose Us</span>
+            <h2>Sevanamithram provides complete assisted service support</h2>
+          </div>
+          <ul class="highlight-list">
+            <li class="reveal-up">
+              <svg><use href="#i-check" /></svg>A trusted, community-driven
+              public service center in Balussery.
+            </li>
+            <li class="reveal-up">
+              <svg><use href="#i-check" /></svg>Authorized eMithram franchise
+              for official government digital services.
+            </li>
+            <li class="reveal-up">
+              <svg><use href="#i-check" /></svg>Everything under one roof —
+              complete multiple applications in a single visit.
+            </li>
+            <li class="reveal-up">
+              <svg><use href="#i-check" /></svg>Dedicated Pravasi support desk
+              through PRAVASALOKAM and SPRAC.
+            </li>
+            <li class="reveal-up">
+              <svg><use href="#i-check" /></svg>A patient, experienced team that
+              explains every step clearly.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="stats" aria-label="Our impact">
+        <div class="container stats-grid">
+          <div>
+            <strong><span data-count="10">0</span>+</strong>
+            <p>Years Experience</p>
+          </div>
+          <div>
+            <strong><span data-count="1000">0</span>+</strong>
+            <p>Happy Members</p>
+          </div>
+          <div>
+            <strong><span data-count="100">0</span>+</strong>
+            <p>Services</p>
+          </div>
+          <div>
+            <strong>24/7</strong>
+            <p>WhatsApp Support</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section partners">
+        <!-- <div class="container">
+          <div class="section-head reveal-up">
+            <span class="section-tag">Our Platforms</span>
+            <h2>Our Partners</h2>
+          </div>
+          <div class="partners-row reveal-up">
+         <span>eMithram</span> <span>NORKA Roots</span ><span>PRAVASALOKAM</span><span>SPRAC</span>
+          </div>
+        </div> -->
+      </section>
+
+      <section class="cta-section">
+        <div class="container cta-inner reveal-up">
+          <div>
+            <span>We are here for you</span>
+            <h2>Need Help? We're Here To Serve You.</h2>
+          </div>
+          <div>
+            <a class="button button-white" href="tel:+91 94975 34008"
+              ><svg><use href="#i-phone" /></svg>Call Now</a
+            ><a
+              class="button button-dark"
+              href="https://wa.me/91 94975 34008"
+              target="_blank"
+              rel="noopener"
+              ><svg><use href="#i-whatsapp" /></svg>WhatsApp</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-info reveal-left">
+            <span class="section-tag">Contact</span>
+            <h2>Visit or reach us</h2>
+            <div class="contact-item">
+              <i
+                ><svg><use href="#i-pin" /></svg
+              ></i>
+              <div>
+                <h3>Address</h3>
+                <address>
+                  Near Karuvan's Driving School, Opposite SBI Bank,<br />Balussery,
+                  Kozhikode, Kerala – India
+                </address>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i
+                ><svg><use href="#i-phone" /></svg
+              ></i>
+              <div>
+                <h3>Contact Info</h3>
+                <p>
+                  Public Services:
+                  <a href="tel:+91 94975 34008">+91 94975 34008</a><br />Pravasi
+                  Support: <a href="tel:+91 94975 14008">+91 94975 14008</a>
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i
+                ><svg><use href="#i-mail" /></svg
+              ></i>
+              <div>
+                <h3>Email</h3>
+                <p>
+                  <a href="mailto:sevanamithramonline@gmail.com"
+                    >sevanamithramonline@gmail.com</a
+                  ><br /><a href="pravasi@sevanamithram.in"
+                    >pravasi@sevanamithram.in</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i
+                ><svg><use href="#i-globe" /></svg
+              ></i>
+              <div>
+                <h3>Website</h3>
+                <p>
+                  <a href="https://www.sevanamithram.in"
+                    >www.sevanamithram.in⁠</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="footer-map" aria-label="Sevanamithram location map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3910.7485304918456!2d75.8306059!3d11.4500969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba666833b056735%3A0xa1232b262349f27d!2sState%20Bank%20of%20India%20BALUSSERY%20ARAPEEDIKA!5e0!3m2!1sen!2sin!4v1713200000000!5m2!1sen!2sin"
+                width="100%"
+                height="180"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              >
+              </iframe>
+            </div>
+          </div>
+          <div class="contact-form-wrap reveal-right">
+            <h3>Send us a message</h3>
+            <p>Tell us what you need. Our team will get back to you.</p>
+            <form id="contact-form" action="contact.php" method="post">
+              <div class="form-row">
+                <label
+                  >Name<input
+                    name="name"
+                    type="text"
+                    autocomplete="name"
+                    required
+                    placeholder="Your full name" /></label
+                ><label
+                  >Phone<input
+                    name="phone"
+                    type="tel"
+                    autocomplete="tel"
+                    required
+                    placeholder="+91 00000 00000"
+                /></label>
+              </div>
+              <label
+                >Email<input
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                  placeholder="youemail@.com"
+              /></label>
+              <label
+                >Subject<select name="subject" required>
+                  <option value="" selected disabled>Select a service</option>
+                  <option>Government Service</option>
+                  <option>Passport Assistance</option>
+                  <option>Pravasi Support</option>
+                  <option>Documentation</option>
+                  <option>Other Enquiry</option>
+                </select></label
+              >
+              <label
+                >Message<textarea
+                  name="message"
+                  rows="5"
+                  required
+                  placeholder="How can we help?"
+                ></textarea>
+              </label>
+              <input
+                class="honeypot"
+                type="text"
+                name="website"
+                tabindex="-1"
+                autocomplete="off"
+                aria-hidden="true"
+              />
+              <button class="button" type="submit"  onclick="window.open('https://wa.me/919497534008', '_blank') ">
+                Send Message  </button>
+              <p class="form-status" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-top">
+        <div class="footer-brand">
+          <!-- <img
+            src="assets/SEVANAMITHRAM-04.png"
+            alt="Sevanamithram Public Service Center"
+            width="50px" height="40px" background-color="#000"
+          /> -->
+
+          <a class="brand" href="#home" aria-label="Sevanamithram home"
+          > <img
+            src="assets/SEVANAMITHRAM-04.png"
+            alt="Sevanamithram Public Service Center"
+            width="100"
+            height="83"
+        /> </a>
+          <p>
+            Your neighbourhood center for government digital services,
+            documentation help and Pravasi support. Built on Trust. Driven by
+            Care.
+          </p>
+        </div>
+        <div>
+          <h3>Useful Links</h3>
+          <a href="#home">Home</a><a href="#services">Services</a
+          ><a href="#about">About</a><a href="#pravasi">Pravasi Support</a
+          ><a href="#contact">Contact</a>
+        </div>
+        <div>
+          <h3>Contact Info</h3>
+          <p>
+            E:<a href="mailto:sevanamithramonline@gmail.com">sevanamithramonline@gmail.com</a
+            >
+          </p>
+          <p>P: <a href="tel:+91 94975 34008">+91 94975 34008</a></p>
+          <p>P: <a href="tel:+91 94975 14008">+91 94975 14008</a></p>
+        </div>
+        <div class="footer-address">
+          <h3>Address</h3>
+          <p>
+            SEVANAMITHRAM Public Service Cente<br />
+            Near Karuvan's Driving School Opposite SBI Bank Balussery Kozhikode
+            Kerala – India
+          </p>
+          <a
+            class="text-link light"
+            href="https://maps.google.com/?q=Balussery+Kozhikode"
+            target="_blank"
+            rel="noopener"
+            >Follow Map
+            <svg>
+              <!-- <use href="#i-arrow" /> -->
+            </svg></a
+          >
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> SEVANAMITHRAM. All rights reserved.</p>
+        <p>Public Service Center · Balussery</p>
+      </div>
+    </footer>
+
+    <a
+      class="whatsapp-float"
+      href="https://wa.me/9497514008?text=Hello%20SEVANAMITHRAM%2C%20I%20need%20assistance."
+      target="_blank"
+      rel="noopener"
+      aria-label="Chat on WhatsApp"
+      ><svg><use href="#i-whatsapp" /></svg><span>Chat with us</span></a
+    >
+    <button class="back-top" aria-label="Back to top">
+      <svg viewBox="0 0 24 24"><path d="m6 15 6-6 6 6" /></svg>
+    </button>
+    <script src="script.js" defer></script>
+  </body>
+</html>
